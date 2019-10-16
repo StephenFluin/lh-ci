@@ -1,0 +1,4 @@
+script:
+  - npm run build # build your site
+  - npm test # run normal tests
+  - ./scripts/run-lighthouse-ci.sh # run lighthouse
