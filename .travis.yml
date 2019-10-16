@@ -19,6 +19,6 @@ cache:
 
 
 script:
-  - npm run build # build your site
-  - npm test # run normal tests
+  - yarn build # build your site
+  - yarn lint # lint app
   - ./scripts/run-lighthouse-ci.sh # run lighthouse
