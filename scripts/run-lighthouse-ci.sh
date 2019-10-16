@@ -1,10 +1,5 @@
 #!/bin/bash
 
-if [[ "$TRAVIS_NODE_VERSION" != "10" ]]; then
-  echo "Only run Lighthouse CI once per build, condititions did not match.";
-  exit 0;
-fi
-
 npx http-server -p 9000 ./dist/lh-ci/ &
 sleep 5
 
