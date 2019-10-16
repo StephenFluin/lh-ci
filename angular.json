@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "lh-ci"
+    }
+  },
+  "defaultProject": "lh-ci",
+  "cli": {
+    "analytics": "e0418a58-c524-4ba6-87d3-d076df426ee1"
+  }
 }
